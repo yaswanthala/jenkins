@@ -14,7 +14,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_security_group" "terraform-sg" {
-    name = "terraformyas"
+    name = "terraformyash"
     description = "built from terraform"
 
     ingress{
